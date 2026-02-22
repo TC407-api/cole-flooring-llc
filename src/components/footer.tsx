@@ -91,16 +91,16 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-warm-white/50 text-sm">
+          <p className="text-warm-white/70 text-sm">
             &copy; {new Date().getFullYear()} {BUSINESS_NAME}. All rights reserved. Licensed & Insured.
           </p>
-          <p className="text-warm-white/30 text-xs">
+          <p className="text-warm-white/60 text-xs">
             Built with{" "}
             <a
               href="https://localliftai.ai"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-warm-white/50 transition-colors"
+              className="hover:text-warm-white/70 transition-colors"
             >
               LocalLift AI
             </a>

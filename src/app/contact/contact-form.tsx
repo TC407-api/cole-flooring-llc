@@ -76,6 +76,7 @@ export function ContactForm() {
       <Input name="email" type="email" placeholder="Email Address" />
       <select
         name="service"
+        aria-label="Project type"
         className="w-full rounded-lg border border-warm-border bg-white px-4 py-3 text-charcoal focus:border-walnut focus:outline-none focus:ring-2 focus:ring-walnut/20 transition-colors"
         defaultValue=""
       >
