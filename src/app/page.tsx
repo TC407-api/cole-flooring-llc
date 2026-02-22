@@ -1,4 +1,4 @@
-import { BeforeAfterSection } from "@/components/sections/before-after";
+import { Craftsmanship } from "@/components/sections/craftsmanship";
 import { CTAForm } from "@/components/sections/cta-form";
 import { Hero } from "@/components/sections/hero";
 import { NotableProjects } from "@/components/sections/notable-projects";
@@ -13,7 +13,7 @@ export default function Home() {
       <Hero />
       <NotableProjects />
       <ServicesGrid />
-      <BeforeAfterSection />
+      <Craftsmanship />
       <WhyUs />
       <Reviews />
       <ServiceAreaSection />
